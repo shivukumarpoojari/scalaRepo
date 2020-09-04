@@ -1,0 +1,153 @@
+* scala is an acronym for scalable Language,scala is a modern multi paradigam programing language
+  designed to express common programing pattern in a consice elegant and type safe way
+* scala is written by martin ordersky at epfl
+* scala is Statically typed language,runs on JVM ,full inter operable with Java
+* scala is object oriented language
+* scala is a functional language
+* it has dynamic features,scala blends object -oriented And functional programing in a statically typed manner
+
+=> why scala?
+* 50% reduction of code
+* it is fast as java
+* shorter codes
+* no null pointer problems
+* it is more flexible
+* can be used as drop in replacement for java
+* mixed java/scala projects
+* use existing java libraries
+* use existing java tools(Ant,maven,Junite etc)
+* decent IDE support(netBeans,Intellij,Eclipse)
+
+=>what is sbt?
+* SBT(scala build tool) is a simple build tool for scala and java projects,similar to javas maven And Ant
+* SBT is a modern build tool while it is written in scala and provides many scala conviences
+* it is general purpose build tool
+* sbt is the facto build tool in the scala
+
+
+=>why SBT?
+*Native support for compilling scala code
+*uses apache lvy for dependency management
+* only update on request model
+*full scala language support for creating tasks
+*support for mixed java/scala projects
+*Lunch REPL(Read -EVAL PRINT LOOP) in project context
+
+=>BOOLEAN
+it gives true or false values
+
+=>BYTE
+8 bit signed value
+
+=>SHORT
+16 bit signed value
+
+=> CHAR
+16 bit unsigned unicode charector
+
+=> INT
+32 bit signed value
+
+=>LONG
+64 bit signed value
+
+=>FLOAT
+32 bit single precision float
+
+=>Double
+64 bit single precision float
+
+=>STRING
+a sequence of charectors
+
+=>UNIT
+corresponds to no value
+
+=>NULL
+null or empty reffernce ,nothing subtype of every other type
+
+=> LAZY INTIALIZATION
+we use the value on demand it means whenver the variable is used that time it will be intialized not before that
+so we can reduce the storage
+* which delyas the evaluation of expression untill the value is nedded
+
+=>IF ELSE STATEMENTS IN SCALA
+//if else statements allows us to execute boolean expressions based on the  result of expressionie true or false//
+
+=>WHILE LOOPS
+// while and do while loops helps us to execute code repeatadly as long as condition is true//
+ // the difference b/w the while and doWhile is doWhile prints atleat once even after condition is not true bcz it prints first after it checks the condition//
+
+=>MATCH EXPRESSIONS
+//match expression is used to select between list of alternative justlike if or multipleif conditions//
+
+=>FUNCTIONS IN SCALA
+// functions are group of statements that perform particular task//
+
+=>HIGHER ORDER FUNCTIONS
+//higher order functions are those functions which are able to take functions as argument and are able to return function these type of functions are called higher order functions
+
+=>CLOSURES IN SCALA
+//closure is a function which uses one or more variables declared outside this function//
+//when we are able to the variable ie pure(var)
+//when we are not able to change the variable ie impure(val)
+
+
+=>FUNCTION CURRYING
+//function currying is the technique of transforming function
+
+=>STRING
+String is a sequence of a charector
+
+=>ARRAYS
+array is a data  structure which can store fixed size sequential elements of same dataType
+
+=>LISTS
+// lists are similar to Array they are the collection of similar datatype elements the difference between the array and list is
+// array is mutable and flat where list is immutable and it represents the link lists
+
+=>difference between lists And array
+*Arrays are mutable              *lists are immutable
+*Arrays are flat                 *list represents link lists
+
+=>SETS
+//sets is a collection of different elements of same data type.sets can not have a duplicate values inside it//
+//all values inside a set must be unique//
+
+=>MAPS
+//Map is a collection of key value pairs in scala,keys are unique in map
+// 1) mutable     2)Immutable
+
+=>TUPLES
+//Tuple is a class that can contain different kinds elements,tuples are immutable,tuple can contain upto 21 elements
+
+=>OPTIONS
+//option is a container which can give 2 values,it can give instance of some and it can give instance of None
+
+=>MAPS
+//map is typically used to iterate over the collection,it can be array or list or set
+// then apply the function to the each element of that collection
+
+=>CLASS
+//classes in scala  are the blueprint of a creating object
+
+=>AUXILARY CONSTRUCTORS
+//Auxilary constructors are the alternative constructors in scala
+
+=>SCALA INHERITANCE
+//in scala classes can be extended by creating new classes which can retain the charecterstics of base class
+//this procces is known as a inhertance
+//it involves the subclass and base class
+//subclass inherits the members of baseclass on top of which it adds the its own members
+
+=>ABSTRACT CLASS
+//if a class is a declred as abstract it can not be instantiated
+//an abstract class does a few things for the inherting the subclass
+//define methods which can be used by the inherting subclass
+//define abstract methods which the inheriting subclass must impliment
+//provide a common interface which allows the subClass to be interchanged with other subClases
+
+
+
+
+=>
