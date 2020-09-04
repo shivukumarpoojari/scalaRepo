@@ -1,0 +1,33 @@
+How to install git on windows 10 ?
+==================================
+
+Download git from this link - https://git-scm.com/download/win
+
+After download follow below link steps to install git on your windows systems :
+
+https://phoenixnap.com/kb/how-to-install-git-windows
+
+github credentials :
+-------------------
+Username: shivukumarpoojari
+Password: Poojari#123
+
+GitHub is the world's largest software development platform. It provides cloud storage for source code, supports all popular programming languages, and streamlines the iteration process. ... Let's review the exact reasons why developers love GitHub so much, and market values it so highly
+
+git config --global user.email "shivukumarpoojari@example.com"
+
+git config --global user.name "shivukumarpoojari"
+
+$ git clone "URL of your repo from github"
+
+$ cd "repo_name" 
+
+--> Add some files in it 
+
+$ git status
+
+$ git add .
+
+$ git commit -m "Added first project"
+
+$ git push https://github.com/shivukumarpoojari/FirstProject.git
